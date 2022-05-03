@@ -9,7 +9,7 @@ As a community member, we ask you to provide feedback in two ways:
 1. React with 👍 to **upvote** an issue, or
 2. leave a **comment** with your notes, questions, or feedback.
 
-> Ensure that your '👍 upvote reaction' is in response to the description of the issue (aka the top-most comment).
+> Ensure that your '👍 upvote reaction' is in response to the **description** of the issue (aka the top-most comment).
 
 # Ingesting Community Feedback
 
