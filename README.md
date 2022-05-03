@@ -1,2 +1,2 @@
 # public-issues
-Repository for tracking issues that we want visible to the public.
+Repository for tracking issues that we want visible to our community.
