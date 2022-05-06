@@ -1,5 +1,6 @@
 name: Peering Request (draft)
-description: Request a BGP peering with one of our Route Views collectors.
+description: Request a new BGP peering with one of our Route Views collectors.
+title: "Peering with: <ASN>"
 labels: 
   - "peer request"
 body:
