@@ -5,18 +5,6 @@ labels:
   - bug
   - triage
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thank you for submitting a bug for the Route Views maintainers to review!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: textarea
     id: observed-behavior
     attributes:
@@ -35,9 +23,17 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
+      label: Relevant console output or logs
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
   - type: checkboxes
     id: terms
     attributes:
