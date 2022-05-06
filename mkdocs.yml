@@ -1,0 +1,10 @@
+site_name: Route Views Issues
+theme:
+    name: readthedocs
+nav:
+    - 🗳 Vote in GitHub!: https://github.com/routeviews/public-issues/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc
+    - Voter Guide: voting.md
+    - Submit an Issue:
+      - Peer Request: peer-request.md
+      - New Collector Request: new-collector.md
+      - General Request: contact.md
