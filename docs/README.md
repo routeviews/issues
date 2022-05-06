@@ -1,7 +1,22 @@
-This repository is for tracking issues submitted by the Route Views community (or issues submitted by maintainers, i.e. for the community to vote on).
+# Overview
 
-Route Views maintainers meet at a weekly cadence to maintain our backlog.
-We consider all community feedback as part of this process.
+This is a GitHub Pages website generated from the [routeviews/public-issues GitHub Repository](https://github.com/routeviews/public-issues).
+
+Route Views maintainers have created this repository to track issues submitted by the Route Views community (or to enable the community to vote on issues we notice).
+
+> What is an 'Issue?'
+>
+> Issues may imply 'bug' if you've not encountered them before.
+> However, GitHub Issues are actually just a generic mechanism to "let you track your work on GitHub."
+> 
+> Issues can represent feature requests, peer requests, new collector requests, bug reports... or any work that needs to get done!
+
+## What happens when I report an issue?
+
+Route Views maintainers meet at a weekly cadence to maintain our backlog of issues in GitHub.
+We consider all changes in the backlog as part of this process.
+
+## Quick Links
 
 | *Quick Links* |
 |:-------:|
