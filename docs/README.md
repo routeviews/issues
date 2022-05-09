@@ -1,6 +1,9 @@
 # Overview
 
-This is a GitHub Pages website generated from the [routeviews/public-issues GitHub Repository](https://github.com/routeviews/public-issues).
+> This is a GitHub Pages website generated from the [routeviews/public GitHub Repository](https://github.com/routeviews/public).
+>
+> ℹ️ You can suggest edits to any of these docs very easily from the web.
+> Make your edits directly in GitHub.com web editors, then, "Create a new branch for this commit and start a pull request." 
 
 Route Views maintainers have created this repository to track issues submitted by the Route Views community (or to enable the community to vote on issues we notice).
 
@@ -21,6 +24,6 @@ We consider all changes in the backlog as part of this process.
 | *Quick Links* |
 |:-------:|
 | **[Voter Guide](./voting.md)** | 
-| **[Backlog, sorted-by "👍"](https://github.com/routeviews/public-issues/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc)** | 
-| **[Backlog, sorted-by "interactions"](https://github.com/routeviews/public-issues/issues?q=is%3Aissue+is%3Aopen+sort%3Ainteractions)** |
-| **[Pulse of Backlog 🩺](https://github.com/routeviews/public-issues/pulse)** |
+| **[Backlog, sorted-by "👍"](https://github.com/routeviews/public/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc)** | 
+| **[Backlog, sorted-by "interactions"](https://github.com/routeviews/public/issues?q=is%3Aissue+is%3Aopen+sort%3Ainteractions)** |
+| **[Pulse of Backlog 🩺](https://github.com/routeviews/public/pulse)** |
