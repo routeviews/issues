@@ -6,7 +6,7 @@ site_name: Route Views Issues
 #
 nav:
   - README.md
-  - 🗳 Vote in GitHub!: https://github.com/routeviews/public/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc
+  - 🗳 Vote in GitHub!: https://github.com/routeviews/issues/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc
   - Voting Guide: voting.md
   - Peer Request Guide: peer-request.md
   - New Collector Guide: new-collector.md
