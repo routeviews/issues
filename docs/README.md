@@ -1,6 +1,6 @@
 # Overview
 
-> This is a GitHub Pages website generated from the [routeviews/public GitHub Repository](https://github.com/routeviews/public).
+> This is a GitHub Pages website generated from the [routeviews/issues GitHub Repository](https://github.com/routeviews/issues).
 >
 > ℹ️ You can suggest edits to any of these docs very easily from the web.
 > Make your edits directly in GitHub.com web editors, then, "Create a new branch for this commit and start a pull request." 
@@ -24,6 +24,6 @@ We consider all changes in the backlog as part of this process.
 | *Quick Links* |
 |:-------:|
 | **[Voter Guide](./voting.md)** | 
-| **[Backlog, sorted-by "👍"](https://github.com/routeviews/public/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc)** | 
-| **[Backlog, sorted-by "interactions"](https://github.com/routeviews/public/issues?q=is%3Aissue+is%3Aopen+sort%3Ainteractions)** |
-| **[Pulse of Backlog 🩺](https://github.com/routeviews/public/pulse)** |
+| **[Backlog, sorted-by "👍"](https://github.com/routeviews/issues/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc)** | 
+| **[Backlog, sorted-by "interactions"](https://github.com/routeviews/issues/issues?q=is%3Aissue+is%3Aopen+sort%3Ainteractions)** |
+| **[Pulse of Backlog 🩺](https://github.com/routeviews/issues/pulse)** |
