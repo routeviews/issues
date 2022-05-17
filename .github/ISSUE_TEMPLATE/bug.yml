@@ -1,6 +1,6 @@
-name: Bug Report (draft)
-description: Report some buggy behavior you've seen related to the Route Views project.
-title: "[Bug]: "
+name: Report a Bug (draft)
+description: Report some buggy behavior you've seen related to the Route Views project. [Review existing bug reports](https://github.com/routeviews/issues/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+title: "Outage: <host name(s)>"
 labels: 
   - bug
   - triage
@@ -10,7 +10,7 @@ body:
     attributes:
       label: What buggy behavior would you like to report?
       placeholder: Tell us what you are seeing!
-      value: "A bug happened!"
+      value: "A bug happened! 🐛😨"
     validations:
       required: true
   - type: textarea

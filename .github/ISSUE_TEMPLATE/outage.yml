@@ -1,0 +1,34 @@
+name: Report an Outage (draft)
+description: Report that some Route Views service is unexpectadly offline. [Review existing outage reports](https://github.com/routeviews/issues/issues?q=is%3Aissue+is%3Aopen+label%3Aoutage)
+title: "Outage: <host name(s)>"
+labels: 
+  - outage
+  - triage
+body:
+  - type: input
+    id: host
+    attributes:
+      label: Host name(s)
+      description: Fully Qualified Domain Name (FQDN) of the Route Views host(s) that is/are down. (Whitespace-seperated list is accepted)
+      placeholder: E.g., archive.routeviews.org stream.routeviews.org
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      placeholder: Please provide info about the outage that you think will help us.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console output or logs
+      description: You may also paste relevant logs or console output here that may help. (This will be automatically formatted into code, so no need for backticks)
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct (TODO)
+      description: By submitting this issue, you agree to follow our [Code of Conduct (todo)](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
