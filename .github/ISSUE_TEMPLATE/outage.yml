@@ -11,8 +11,6 @@ body:
       label: Host name(s)
       description: Fully Qualified Domain Name (FQDN) of the Route Views host(s) that is/are down. (Whitespace-seperated list is accepted)
       placeholder: E.g., archive.routeviews.org stream.routeviews.org
-    validations:
-      required: true
   - type: textarea
     id: details
     attributes:

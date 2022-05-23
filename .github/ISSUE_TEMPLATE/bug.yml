@@ -1,6 +1,5 @@
 name: Report a Bug (draft)
 description: Report some buggy behavior you've seen related to the Route Views project. [Review existing bug reports](https://github.com/routeviews/issues/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-title: "Outage: <host name(s)>"
 labels: 
   - bug
   - triage
@@ -18,8 +17,6 @@ body:
     attributes:
       label: If the bug is fixed, what is the *expected behavior*?
       placeholder: Let us know what to strive for, and we'll do our best to make it reality!
-    validations:
-      required: true
   - type: textarea
     id: logs
     attributes:

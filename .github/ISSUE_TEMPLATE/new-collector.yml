@@ -8,39 +8,16 @@ body:
     id: fullname
     attributes:
       label: Full Name
-      description: Or the name of the entity you represent
+      description: Your name, or the name of the entity you represent
     validations:
       required: true
   - type: input
     id: asn
     attributes:
-      label: IX
-      description: The internet excha
+      label: IX(s)
+      description: The Internet eXchange(s) where this collector will have a peering interface
     validations:
       required: true
-  - type: input
-    id: ipaddrs
-    attributes:
-      label: Peer Address(es)
-      description: The IP Address(es) of the devices you'd like to connect to. (Whitespace-seperated list is accepted)
-    validations:
-      required: true
-  - type: input
-    id: geolocation
-    attributes:
-      label: Geo-Location
-      description: Where is this peer located?
-      placeholder: ex. Coordinates; Full Address; or City, ISO Country Code;
-    validations:
-      required: true
-  - type: checkboxes
-    id: peeringdb_up_to_date
-    attributes:
-      label: PeeringDB Integration
-      description: Please ensure your PeeringDB entries are up to date before requesting peering. We rely heavily on integrations with PeeringDB to reduce overhead and improve operations.
-      options:
-        - label: My PeeringDB Entries are current
-          required: true
   - type: checkboxes
     id: terms
     attributes:
