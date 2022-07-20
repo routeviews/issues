@@ -1,7 +1,8 @@
 name: Peering Request (draft)
 description: Request a new BGP peering with one of our Route Views collectors.
-title: "Peering with: <ASN>"
+title: "Peering Request"
 labels: 
+  - triage
   - "peer request"
 body:
   - type: input
@@ -25,14 +26,14 @@ body:
       description: The IP Address(es) of the devices you'd like to connect to. (Whitespace-seperated list is accepted)
     validations:
       required: true
-  - type: input
-    id: geolocation
-    attributes:
-      label: Geo-Location
-      description: Where is this peer located?
-      placeholder: ex. Coordinates; Full Address; or City, ISO Country Code;
-    validations:
-      required: true
+  # - type: input
+  #   id: geolocation
+  #   attributes:
+  #     label: Geo-Location
+  #     description: Where is this peer located?
+  #     placeholder: ex. Coordinates; Full Address; or City, ISO Country Code;
+  #   validations:
+  #     required: true
   - type: checkboxes
     id: peeringdb_up_to_date
     attributes:

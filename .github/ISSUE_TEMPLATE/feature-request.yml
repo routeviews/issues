@@ -1,0 +1,32 @@
+name: Request a Feature
+description: Request an improvement to Route Views services.
+labels: 
+  - triage
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+
+        > ℹ Before proceeding, it is wise to review [existing feature requests](https://github.com/routeviews/issues/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement).
+        > You might [vote](https://routeviews.github.io/issues/voting/) or comment on an existing issue rather than taking the time to fill this form.
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Enhancement Discussion
+      placeholder: |
+        Please discuss the enhancement you'd like to see.
+        Some motivating questions:
+
+        * What is the benefit of this enhancement? 
+        * What are the costs of not making this enhancement?
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct (TODO)
+      description: By submitting this issue, you agree to follow our [Code of Conduct (todo)](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

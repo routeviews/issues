@@ -1,4 +1,4 @@
-# TODOs
+
 
 TODO: make a 'new collector' form in github and provide a link here.
 TODO: We should be more standard, so that we can literally just auto-deploy new collectors given the IP Address and credentials...
@@ -14,6 +14,12 @@ So, we do weigh all the factors before accepting (or denying) a request to estab
 
 > At this time, we do not accept hosting multihop collectors.
 > We use standard Ubuntu VMs provided by the University of Oregon for our multihop collectors.
+
+## Request Form
+
+> We are using GitHub to intake and triage issues.
+
+Please fill out the ["New Collector Request" issue form](https://github.com/routeviews/issues/issues/new?assignees=&labels=collector%28s%29&template=new-collector.yml&title=New+Collector) if you wish to host a new collector for Route Views.
 
 ## Evaluating an Internet Exchange (IX)
 

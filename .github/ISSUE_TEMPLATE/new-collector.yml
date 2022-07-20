@@ -1,9 +1,17 @@
 name: Host a New Collector (draft)
 description: Offer resources so Route Views can maintain a collector at your Internet Exchange (IX).
-title: "New Collector: <Internet-Exchange-Code>"
+title: "New Collector"
 labels: 
-  - collector(s)
+  - triage
+  - collector
+  - enhancement
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for thinking about hosting a Route Views collector!
+        
+        ℹ Please see the [New Collector Guide](https://routeviews.github.io/issues/new-collector/).
   - type: input
     id: fullname
     attributes:
@@ -12,34 +20,19 @@ body:
     validations:
       required: true
   - type: input
-    id: asn
+    id: internet_exchanges
     attributes:
-      label: IX
-      description: The internet excha
-    validations:
-      required: true
-  - type: input
-    id: ipaddrs
-    attributes:
-      label: Peer Address(es)
-      description: The IP Address(es) of the devices you'd like to connect to. (Whitespace-seperated list is accepted)
-    validations:
-      required: true
-  - type: input
-    id: geolocation
-    attributes:
-      label: Geo-Location
-      description: Where is this peer located?
-      placeholder: ex. Coordinates; Full Address; or City, ISO Country Code;
+      label: IX(s)
+      description: The internet exchange(s) where the collector will connect
     validations:
       required: true
   - type: checkboxes
-    id: peeringdb_up_to_date
+    id: new_collector_requirements
     attributes:
-      label: PeeringDB Integration
-      description: Please ensure your PeeringDB entries are up to date before requesting peering. We rely heavily on integrations with PeeringDB to reduce overhead and improve operations.
+      label: System Requirements
+      description: Review the System Requirements outlined in the [New Collector Guide](https://routeviews.github.io/issues/new-collector/).
       options:
-        - label: My PeeringDB Entries are current
+        - label: I have reviewed the System Requirements, and am confident I can host a collector that meets the minimums.
           required: true
   - type: checkboxes
     id: terms
