@@ -16,7 +16,7 @@ body:
     id: fullname
     attributes:
       label: Full Name
-      description: Or the name of the entity you represent
+      description: Your name, or the name of the entity you represent
     validations:
       required: true
   - type: input

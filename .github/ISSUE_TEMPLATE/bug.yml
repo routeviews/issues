@@ -26,8 +26,6 @@ body:
       label: Expected Behavior
       description: If the bug is fixed, what is the expected behavior?
       placeholder: Let us know what to strive for, and we'll do our best to make it reality!
-    validations:
-      required: true
   - type: textarea
     id: logs
     attributes:

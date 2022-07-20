@@ -14,7 +14,7 @@ body:
     id: host
     attributes:
       label: Effected Services/Hosts
-      description: Fully Qualified Domain Name (FQDN) of the Route Views Services/Hosts that is/are down. (Whitespace-seperated list is accepted)
+      description: Fully Qualified Domain Name (FQDN) of the Route Views Services/Hosts that is/are down. (Whitespace-separated list is accepted)
       placeholder: archive.routeviews.org stream.routeviews.org
     validations:
       required: true
