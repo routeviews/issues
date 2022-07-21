@@ -42,11 +42,12 @@ body:
       options:
         - label: My PeeringDB Entries are current
           required: true
+  # SNIPPET: Code of Conduct
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct (TODO)
-      description: By submitting this issue, you agree to follow our [Code of Conduct (todo)](https://example.com)
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://routeviews.github.io/issues/  code-of-conduct/)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true

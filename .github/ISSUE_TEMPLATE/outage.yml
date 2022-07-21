@@ -29,11 +29,12 @@ body:
       label: Console output or logs
       description: You may also paste relevant logs or console output here that may help. (This will be automatically formatted into code, so no need for backticks)
       render: shell
+  # SNIPPET: Code of Conduct
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct (TODO)
-      description: By submitting this issue, you agree to follow our [Code of Conduct (todo)](https://example.com)
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://routeviews.github.io/issues/  code-of-conduct/)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true

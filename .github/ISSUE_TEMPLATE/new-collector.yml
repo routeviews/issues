@@ -34,11 +34,12 @@ body:
       options:
         - label: I have reviewed the System Requirements, and am confident I can host a collector that meets the minimums.
           required: true
+  # SNIPPET: Code of Conduct
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct (TODO)
-      description: By submitting this issue, you agree to follow our [Code of Conduct (todo)](https://example.com)
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://routeviews.github.io/issues/  code-of-conduct/)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true

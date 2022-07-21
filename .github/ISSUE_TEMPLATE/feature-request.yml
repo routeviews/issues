@@ -22,11 +22,12 @@ body:
 
         * What is the benefit of this enhancement? 
         * What are the costs of not making this enhancement?
+  # SNIPPET: Code of Conduct
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct (TODO)
-      description: By submitting this issue, you agree to follow our [Code of Conduct (todo)](https://example.com)
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://routeviews.github.io/issues/  code-of-conduct/)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
