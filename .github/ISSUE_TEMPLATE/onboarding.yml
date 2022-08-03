@@ -26,30 +26,33 @@ body:
         >
         > ℹ️ Tip: Want to suggest edits to this form?
         > Make your edits directly in GitHub.com web editors, then, "Create a new branch for this commit and start a pull request." 
-
-        ### New Maintainer Initial Tasks
-
-        - [ ] Share Public SSH key (RSA, >2048 bytes).
-
-
-        ### Existing Maintainer Tasks
-
-        - [ ] Add to ["Route Views Maintainers" GitHub Team](https://github.com/orgs/routeviews/teams/maintainers/members?add=true).
-        - [ ] Setup <username>@routeviews.org email account.
-        - [ ] Provide access to [our Grafana instance](http://rvmonitor.routeviews.org:3000/).
-        - [ ] Deploy public SSH Key to RV infrastructure (via Ansible).
-        - [ ] Admit/ensure access to RV in PeeringDB.
-        - [ ] Ensure access to RV Slack.
-          - [ ] Provide access to the private Maintainer-only Slack channels. Today this includes: "peer requests" and "infrastructure".
-        - [ ] Share Route Views KeePass Master Password. (e.g., do this via RV Slack using [the "Secret Message" app](https://secretmessage.xyz/))
-        - [ ] Help the new member complete their first 'peer request'! (e.g., schedule a time within the next work-week)
-
-        ### New Maintainer Final Tasks
-
-        - [ ] Set up your mail client with your new Route Views email address. Refer to our [mail configuration documentation](https://github.com/routeviews/infra/blob/master/docs/contribute/mail_settings.md)
-          - [ ] BONUS: Set up the helpmail@routeviews.org email address also, giving you access to vast history of emails (credentials in [RV KeePass](https://github.com/routeviews/infra/blob/master/RouteViews.kdbx)).
-        - [ ] Ensure access to [Route Views Slack](https://routeviewsworkspace.slack.com).
-        - [ ] Review the [RV Maintainer Handbook (TODO update link to GH Pages)](https://github.com/routeviews/handbook).
-        - [ ] Set up a PeeringDB account, and ['request Affiliation' with Route Views  (ASN 6447) on your PeeringDB profile page](https://www.peeringdb.com/profile)
-        - [ ] Complete your first peer request! 😁 (with help from an existing maintainer)
-        - [ ] Ensure login, and take a look through dashboards in [our Grafana instance](http://rvmonitor.routeviews.org:3000/).
+  - type: checkboxes
+    attributes:
+      label: New Maintainer Initial Tasks
+      options:
+        - label: Share Public SSH key (RSA, >2048 bytes)
+  - type: checkboxes
+    attributes:
+      label: Existing Maintainer Tasks
+      options:
+        - label: Share Public SSH key (RSA, >2048 bytes)
+        - label: Add to ["Route Views Maintainers" GitHub Team](https://github.com/orgs/routeviews/teams/maintainers/members?add=true).
+        - label: Setup <username>@routeviews.org email account.
+        - label: Provide access to [our Grafana instance](http://rvmonitor.routeviews.org:3000/).
+        - label: Deploy public SSH Key to RV infrastructure (via Ansible).
+        - label: Admit/ensure access to RV in PeeringDB.
+        - label: Ensure access to RV Slack.
+        - label: 'Provide access to the private Maintainer-only Slack channels. Today this includes: "peer requests" and "infrastructure".'
+        - label: Share Route Views KeePass Master Password. (e.g., do this via RV Slack using [the "Secret Message" app](https://secretmessage.xyz/))
+        - label: Help the new member complete their first 'peer request'! (e.g., schedule a time within the next work-week)
+  - type: checkboxes
+    attributes:
+      label: New Maintainer Final Tasks
+      options:
+        - label: Set up your mail client with your new Route Views email address. Refer to our [mail configuration documentation](https://github.com/routeviews/infra/blob/master/docs/contribute/mail_settings.md)
+        - label: (BONUS) Set up the helpmail@routeviews.org email address also, giving you access to vast history of emails (credentials in [RV KeePass](https://github.com/routeviews/infra/blob/master/RouteViews.kdbx)).
+        - label: Ensure access to [Route Views Slack](https://routeviewsworkspace.slack.com).
+        - label: Review the [RV Maintainer Handbook (TODO update link to GH Pages)](https://github.com/routeviews/handbook).
+        - label: Set up a PeeringDB account, and ['request Affiliation' with Route Views  (ASN 6447) on your PeeringDB profile page](https://www.peeringdb.com/profile)
+        - label: Ensure login, and take a look through dashboards in [our Grafana instance](http://rvmonitor.routeviews.org:3000/).
+        - label: Complete your first peer request! 😁 (with help from an existing maintainer)
