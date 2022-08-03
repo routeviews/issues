@@ -35,7 +35,6 @@ body:
     attributes:
       label: Existing Maintainer Tasks
       options:
-        - label: Share Public SSH key (RSA, >2048 bytes)
         - label: Add to ["Route Views Maintainers" GitHub Team](https://github.com/orgs/routeviews/teams/maintainers/members?add=true).
         - label: Setup <username>@routeviews.org email account.
         - label: Provide access to [our Grafana instance](http://rvmonitor.routeviews.org:3000/).
