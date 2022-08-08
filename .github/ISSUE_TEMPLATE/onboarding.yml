@@ -25,11 +25,6 @@ body:
         > ℹ When submitting this issue, you do not have to check ANY of the checkboxes below.
         > 
         > After you submit this issue, all the checkboxes below will be used to keep track of your onboarding process over the coming days.
-
-        > This form is generated from the [routeviews/issues GitHub Repository](https://github.com/routeviews/issues).
-        >
-        > ℹ️ Tip: Want to suggest edits to this form?
-        > Make your edits directly in GitHub.com web editors, then, "Create a new branch for this commit and start a pull request." 
   - type: checkboxes
     attributes:
       label: New Maintainer Initial Tasks
@@ -65,3 +60,10 @@ body:
         - label: Set up a PeeringDB account, and ['request Affiliation' with Route Views  (ASN 6447) on your PeeringDB profile page](https://www.peeringdb.com/profile)
         - label: Ensure login, and take a look through dashboards in [our Grafana instance](http://rvmonitor.routeviews.org:3000/).
         - label: Complete your first peer request! 😁 (with help from an existing maintainer)
+  - type: markdown
+    attributes:
+      value: |
+        > This form is generated from the [routeviews/issues GitHub Repository](https://github.com/routeviews/issues).
+        >
+        > ℹ️ Tip: Want to suggest edits to this form?
+        > Make your edits directly in GitHub.com web editors, then, "Create a new branch for this commit and start a pull request." 
