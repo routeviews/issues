@@ -22,6 +22,10 @@ body:
       value: |
         What follows are the tasks required to fully enable a new Route Views (RV) maintainer.
 
+        > ℹ When submitting this issue, you do not have to check ANY of the checkboxes below.
+        > 
+        > After you submit this issue, all the checkboxes below will be used to keep track of your onboarding process over the coming days.
+
         > This form is generated from the [routeviews/issues GitHub Repository](https://github.com/routeviews/issues).
         >
         > ℹ️ Tip: Want to suggest edits to this form?
@@ -29,11 +33,15 @@ body:
   - type: checkboxes
     attributes:
       label: New Maintainer Initial Tasks
+      description: |
+        Tasks for you to complete before onboarding can begin.
       options:
         - label: Share Public SSH key (RSA, >2048 bytes)
   - type: checkboxes
     attributes:
       label: Existing Maintainer Tasks
+      description: |
+        Onboarding tasks to be completed by an existing Route Views Maintainer. (within days of submission)
       options:
         - label: Add to ["Route Views Maintainers" GitHub Team](https://github.com/orgs/routeviews/teams/maintainers/members?add=true).
         - label: Setup <username>@routeviews.org email account.
@@ -47,6 +55,8 @@ body:
   - type: checkboxes
     attributes:
       label: New Maintainer Final Tasks
+      description: |
+        Onboarding tasks to for you to complete after an existing Route Views Maintainer completes their onboarding tasks.
       options:
         - label: Set up your mail client with your new Route Views email address. Refer to our [mail configuration documentation](https://github.com/routeviews/infra/blob/master/docs/contribute/mail_settings.md)
         - label: (BONUS) Set up the helpmail@routeviews.org email address also, giving you access to vast history of emails (credentials in [RV KeePass](https://github.com/routeviews/infra/blob/master/RouteViews.kdbx)).
