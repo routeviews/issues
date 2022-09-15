@@ -26,6 +26,13 @@ body:
       description: The internet exchange(s) where the collector will connect
     validations:
       required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Coordinates where the collector is hosted (address accepted, but (lat., long.) preferred).
+    validations:
+      required: true
   - type: checkboxes
     id: new_collector_requirements
     attributes:
