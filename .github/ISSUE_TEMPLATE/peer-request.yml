@@ -19,29 +19,20 @@ body:
       description: Your Autonomous System Number (ASN)
     validations:
       required: true
-  - type: input
-    id: ipaddrs
-    attributes:
-      label: Peer Address(es)
-      description: The IP Address(es) of the devices you'd like to connect to. (Whitespace-seperated list is accepted)
-    validations:
-      required: true
-  # - type: input
-  #   id: geolocation
-  #   attributes:
-  #     label: Geo-Location
-  #     description: Where is this peer located?
-  #     placeholder: ex. Coordinates; Full Address; or City, ISO Country Code;
-  #   validations:
-  #     required: true
   - type: checkboxes
     id: peeringdb_up_to_date
     attributes:
       label: PeeringDB Integration
       description: Please ensure your PeeringDB entries are up to date before requesting peering. We rely heavily on integrations with PeeringDB to reduce overhead and improve operations.
       options:
+        - label: Peer at **all** available locations (and omit Peer Address(es) field below)
         - label: My PeeringDB Entries are current
           required: true
+  - type: textarea
+    id: ipaddrs
+    attributes:
+      label: Peer Address(es)
+      description: You can specify particular IP Addresses of the devices you'd like to peer with Route Views. (Whitespace-separated list is accepted)
   - type: checkboxes
     id: terms
     attributes:
