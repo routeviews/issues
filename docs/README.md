@@ -1,6 +1,6 @@
 # Overview
 
-> This is a GitHub Pages website generated from the [routeviews/issues GitHub Repository](https://github.com/routeviews/issues).
+> This [page is hosted via GitHub Pages](https://routeviews.github.io/issues/) generated from the [routeviews/issues GitHub Repository](https://github.com/routeviews/issues).
 >
 > ℹ️ Tip: You can suggest edits to any of these docs very easily from the web.
 > Make your edits directly in GitHub.com web editors, then, "Create a new branch for this commit and start a pull request." 

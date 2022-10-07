@@ -31,6 +31,8 @@ In terms of the VM itself, we require the following minimum resources:
   2. An interface for transit/management. 
      * Both an IPv6 and IPv4 address are required on the transit interface.
 
+> **⚠ NOTE:** It is important to note that Route Views collectors require **two** interfaces -- ensure you will be able to establish a **peering interface** for each IX that you are interested in.
+
 Additionally, we look to you to do the work of plumbing a VLAN from the IX to the new collector -- so that we can establish our collector at the IX.
 
 > Route Views is attempting to standardize on the Ubuntu Operating System.
