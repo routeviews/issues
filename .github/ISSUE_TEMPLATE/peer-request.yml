@@ -33,12 +33,11 @@ body:
     attributes:
       label: Peer Address(es)
       description: If not peering at all available exchanges, provide IP Addresses of the devices you'd like to peer with Route Views. (Whitespace-separated list is accepted)
-  # TODO: add code of conduct when it is complete
-  # - type: checkboxes
-  #   id: terms
-  #   attributes:
-  #     label: Code of Conduct (TODO)
-  #     description: By submitting this issue, you agree to follow our [Code of Conduct (todo)](https://example.com)
-  #     options:
-  #       - label: I agree to follow this project's Code of Conduct
-  #         required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct (TODO)
+      description: By submitting this issue, you agree to follow our [Code of Conduct (todo)](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
