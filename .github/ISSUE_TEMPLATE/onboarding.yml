@@ -57,11 +57,12 @@ body:
         Onboarding tasks to for you to complete after an existing Route Views Maintainer completes their onboarding tasks.
       options:
         - label: Set up your mail client with your new Route Views email address. Refer to our [mail configuration documentation](https://github.com/routeviews/infra/blob/master/docs/contribute/mail_settings.md)
+        - label: Set up your ssh-client config as discussed in our [authentication documentation](https://github.com/routeviews/infra/blob/master/docs/contribute/authentication.md)
         - label: (BONUS) Set up the helpmail@routeviews.org email address also, giving you access to vast history of emails (credentials in [RV KeePass](https://github.com/routeviews/infra/blob/master/RouteViews.kdbx)).
         - label: Ensure access to [Route Views Slack](https://routeviewsworkspace.slack.com).
         - label: Review the [RV Maintainer Handbook (TODO update link to GH Pages)](https://github.com/routeviews/handbook).
         - label: Set up a PeeringDB account, and ['request Affiliation' with Route Views  (ASN 6447) on your PeeringDB profile page](https://www.peeringdb.com/profile)
-        - label: Ensure login, and take a look through dashboards in [our Grafana instance](http://rvmonitor.routeviews.org:3000/).
+        - label: "[(prereq: establish some tunnel via an RV jump host)](https://github.com/routeviews/infra/issues/156#issuecomment-1248742381) Ensure login, and take a look through dashboards in [our Grafana instance](http://rvmonitor.routeviews.org:3000/)."
         - label: Complete your first peer request! 😁 (with help from an existing maintainer)
   - type: markdown
     attributes:
