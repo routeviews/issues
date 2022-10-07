@@ -1,4 +1,4 @@
-name: Peering Request (draft)
+name: Peering Request
 description: Request a new BGP peering with one of our Route Views collectors.
 title: "Peering Request"
 labels: 
@@ -25,19 +25,20 @@ body:
       label: PeeringDB Integration
       description: Please ensure your PeeringDB entries are up to date before requesting peering. We rely heavily on integrations with PeeringDB to reduce overhead and improve operations.
       options:
-        - label: Peer at **all** available locations (and omit Peer Address(es) field below)
         - label: My PeeringDB Entries are current
           required: true
+        - label: Peer at ***all available exchanges*** (and omit Peer Address(es) field below)
   - type: textarea
     id: ipaddrs
     attributes:
       label: Peer Address(es)
-      description: You can specify particular IP Addresses of the devices you'd like to peer with Route Views. (Whitespace-separated list is accepted)
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct (TODO)
-      description: By submitting this issue, you agree to follow our [Code of Conduct (todo)](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      description: If not peering at all available exchanges, provide IP Addresses of the devices you'd like to peer with Route Views. (Whitespace-separated list is accepted)
+  # TODO: add code of conduct when it is complete
+  # - type: checkboxes
+  #   id: terms
+  #   attributes:
+  #     label: Code of Conduct (TODO)
+  #     description: By submitting this issue, you agree to follow our [Code of Conduct (todo)](https://example.com)
+  #     options:
+  #       - label: I agree to follow this project's Code of Conduct
+  #         required: true
