@@ -62,7 +62,7 @@ body:
         - label: Ensure access to [Route Views Slack](https://routeviewsworkspace.slack.com).
         - label: Review the [RV Maintainer Handbook (TODO update link to GH Pages)](https://github.com/routeviews/handbook).
         - label: Set up a PeeringDB account, and ['request Affiliation' with Route Views  (ASN 6447) on your PeeringDB profile page](https://www.peeringdb.com/profile).
-        - label: "[*prereq: establish some tunnel via an RV jump host... then*)](https://github.com/routeviews/infra/issues/156#issuecomment-1248742381) Ensure login, and take a look through dashboards in [our Grafana instance](http://rvmonitor.routeviews.org:3000/)."
+        - label: "[*Prereq: establish some tunnel via an RV jump host, then...](https://github.com/routeviews/infra/issues/156#issuecomment-1248742381) Ensure login, and take a look through dashboards in [our Grafana instance](http://rvmonitor.routeviews.org:3000/)."
         - label: Complete your first peer request! 😁 (with help from an existing maintainer)
   - type: markdown
     attributes:
