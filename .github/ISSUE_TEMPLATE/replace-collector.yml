@@ -1,5 +1,6 @@
 name: Replace/Upgrade a Collector
 description: Request to replace/upgrade an existing Route Views collector.
+title: Replace/Upgrade Collector
 labels: 
   - triage
   - collector
