@@ -28,6 +28,7 @@ body:
           * "Upgrade from deprecated Operating System" 
           * "Major Version upgrade for Operating System" 
           * "Switching from physical host to virtual machine" 
+          * "Hosting Company requested this replacement/upgrade" 
     validations:
       required: true
   - type: checkboxes
