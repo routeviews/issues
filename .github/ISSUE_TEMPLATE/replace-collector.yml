@@ -6,17 +6,21 @@ labels:
   - enhancement
   - documentation
 body:
+  - type: markdown
+    attributes:
+      value: ℹ This form intended to help @routeviews/maintainers track collector upgrades/replacements.
   - type: input
     id: collector
     attributes:
       label: Collector
       description: Which collector needs to be replaced/upgraded?
+      placeholder: ex. isc.routeviews.org
     validations:
       required: true
   - type: textarea
-    id: rationale
+    id: reason
     attributes:
-      label: Rationale
+      label: Reason
       description: >
         Why does this collector need to be replaced/upgraded? 
         Some examples: 
