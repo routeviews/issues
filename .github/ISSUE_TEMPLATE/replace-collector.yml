@@ -1,0 +1,35 @@
+name: Replace/Upgrade a Collector
+description: Request to replace/upgrade an existing Route Views collector.
+labels: 
+  - triage
+  - collector
+  - enhancement
+  - documentation
+body:
+  - type: input
+    id: collector
+    attributes:
+      label: Collector
+      description: Which collector needs to be replaced/upgraded?
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: >
+        Why does this collector need to be replaced/upgraded? 
+        Some examples: 
+          * "Upgrade from deprecated Operating System" 
+          * "Major Version upgrade for Operating System" 
+          * "Switching from physical host to virtual machine" 
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct (TODO)
+      description: By submitting this issue, you agree to follow our [Code of Conduct (todo)](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
