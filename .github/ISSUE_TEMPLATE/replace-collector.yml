@@ -8,7 +8,7 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: ℹ This form intended to help @routeviews/maintainers track collector upgrades/replacements.
+      value: ℹ This form intended for [@routeviews/maintainers](https://github.com/orgs/routeviews/teams/maintainers), to help track collector upgrades/replacements.
   - type: input
     id: collector
     attributes:
