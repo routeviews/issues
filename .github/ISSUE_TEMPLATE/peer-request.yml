@@ -1,6 +1,6 @@
 name: Peering Request
 description: Request a new BGP peering with one of our Route Views collectors.
-title: "Peering Request"
+title: Peering Request
 labels: 
   - triage
   - "peer request"
@@ -23,16 +23,31 @@ body:
     id: peeringdb_up_to_date
     attributes:
       label: PeeringDB Integration
-      description: Please ensure your PeeringDB entries are up to date before requesting peering. We rely heavily on integrations with PeeringDB to reduce overhead and improve operations.
+      description: >
+        Please ensure your PeeringDB entries are up to date before requesting
+        peering. We rely heavily on integrations with PeeringDB to reduce
+        overhead and improve operations.
       options:
         - label: My PeeringDB Entries are current
           required: true
-        - label: Peer at ***all available exchanges*** (and omit Peer Address(es) field below)
+        - label: Peer at ***all available exchanges*** (*and skip the Peer Address(es) field below*)
   - type: textarea
     id: ipaddrs
     attributes:
       label: Peer Address(es)
-      description: If not peering at all available exchanges, provide IP Addresses of the devices you'd like to peer with Route Views. (Whitespace-separated list is accepted)
+      description: >
+        If not peering at all available exchanges, provide IP Addresses of the
+        devices you'd like to peer with Route Views.
+        List multiple addresses seperated by whitespace characters (newlines, spaces, tabs, etc.)
+  - type: checkboxes
+    id: multihop
+    attributes:
+      label: Multihop
+      description: >
+        Is this a multihop peering session? If yes, make sure to set a nice 
+        long TTL for this session! (We use TTL of *255*)
+      options:
+        - label: Multihop
   - type: checkboxes
     id: terms
     attributes:
