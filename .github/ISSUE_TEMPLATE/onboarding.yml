@@ -44,7 +44,6 @@ body:
         - label: Add to ["Route Views Maintainers" GitHub Team](https://github.com/orgs/routeviews/teams/maintainers/members?add=true).
         - label: Deploy public SSH Key to RV infrastructure (via Ansible). Follow the [New Route Views Maintainer workflow (TODO)](https://github.com/routeviews/infra/blob/master/docs/contribute/new_rv_maintainer.md).
         - label: Setup <username>@routeviews.org email account.
-        - label: Assign Admin access to [our Grafana instance](https://rvmonitor.routeviews.org:3000/).
         - label: Admit/ensure access to RV in PeeringDB.
         - label: Ensure access to RV Slack.
         - label: 'Provide access to the private Maintainer-only Slack channels. Today this includes: "peer requests" and "infrastructure".'
