@@ -37,7 +37,7 @@ body:
     attributes:
       label: Peer Address(es)
       description: >
-        If not peering at all available exchanges, provide IP Addresses of the
+        If not peering at **ALL EXCHANGES**, provide IP Addresses of the
         devices you'd like to peer with Route Views.
         List multiple addresses seperated by whitespace characters (newlines, spaces, tabs, etc.)
   - type: checkboxes
