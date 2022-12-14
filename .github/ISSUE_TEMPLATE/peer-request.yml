@@ -24,15 +24,11 @@ body:
     attributes:
       label: PeeringDB Integration
       description: |
-        Wanna see ***all available exchanges*** we can peer at according to PeeringDB?
-        Run our Python 3 utility to find out for yourself! 
+        Wanna see ***all available exchanges*** we can peer with you according to PeeringDB?
+        Try out the [`routeviews` Python Package](https://pypi.org/project/routeviews/)!
 
             pip install routeviews
             routeviews-build-peer --asn <YOUR_ASN> --show-options
-
-        > ⚠ Please ensure your PeeringDB entries are up to date before requesting
-        > peering. We rely heavily on integrations with PeeringDB to reduce
-        > overhead and improve operations.
       options:
         - label: My PeeringDB Entries are current
           required: true
