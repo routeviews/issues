@@ -46,9 +46,9 @@ body:
       label: Multihop
       description: >
         Is this a multihop peering session? If yes, make sure to set a nice 
-        long TTL for this session! (We use TTL of *255*)
+        long TTL for this session! (*We configure `TTL=255`*)
       options:
-        - label: Multihop
+        - label: Multihop Peering Request
   - type: checkboxes
     id: terms
     attributes:
