@@ -44,7 +44,7 @@ body:
         - label: Add to ["Route Views Maintainers" GitHub Team](https://github.com/orgs/routeviews/teams/maintainers/members?add=true).
         - label: Deploy public SSH Key to RV infrastructure (via Ansible). Follow the [New Route Views Maintainer workflow (TODO)](https://github.com/routeviews/infra/blob/master/docs/contribute/new_rv_maintainer.md).
         - label: Setup <username>@routeviews.org email account.
-        - label: Provide access to [our Grafana instance](http://rvmonitor.routeviews.org:3000/).
+        - label: Assign Admin access to [our Grafana instance](https://rvmonitor.routeviews.org:3000/).
         - label: Admit/ensure access to RV in PeeringDB.
         - label: Ensure access to RV Slack.
         - label: 'Provide access to the private Maintainer-only Slack channels. Today this includes: "peer requests" and "infrastructure".'
@@ -62,8 +62,15 @@ body:
         - label: Ensure access to [Route Views Slack](https://routeviewsworkspace.slack.com).
         - label: Review the [RV Maintainer Handbook (TODO update link to GH Pages)](https://github.com/routeviews/handbook).
         - label: Set up a PeeringDB account, and ['request Affiliation' with Route Views  (ASN 6447) on your PeeringDB profile page](https://www.peeringdb.com/profile).
-        - label: "[*Prereq: establish some tunnel via an RV jump host, then...*](https://github.com/routeviews/infra/issues/156#issuecomment-1248742381) Ensure login, and take a look through dashboards in [our Grafana instance](http://rvmonitor.routeviews.org:3000/)."
+        - label: Log into [RV Monitor, our Grafana instance](https://rvmonitor.routeviews.org:3000/).
         - label: Complete your first peer request! 😁 (with help from an existing maintainer)
+  - type: checkboxes
+    attributes:
+      label: Existing Maintainer Final Tasks
+      description: |
+        Onboarding tasks to be completed by an existing Route Views Maintainer. (within days of submission)
+      options:
+        - label: Assign "Editor" access in [RV Monitor (Grafana)](https://rvmonitor.routeviews.org:3000/).
   - type: markdown
     attributes:
       value: |
