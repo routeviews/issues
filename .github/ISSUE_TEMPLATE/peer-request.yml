@@ -24,8 +24,7 @@ body:
     attributes:
       label: PeeringDB Integration
       description: |
-        Wanna see **ALL EXCHANGES** where we can peer? Try out the 
-        [`routeviews` Python Package](https://pypi.org/project/routeviews/)!
+        Wanna see **ALL EXCHANGES** where we can peer? Try out the [`routeviews` Python Package](https://pypi.org/project/routeviews/)!
 
             pip install routeviews
             routeviews-build-peer --asn <YOUR_ASN> --show-options
