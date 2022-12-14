@@ -23,10 +23,16 @@ body:
     id: peeringdb_up_to_date
     attributes:
       label: PeeringDB Integration
-      description: >
-        Please ensure your PeeringDB entries are up to date before requesting
-        peering. We rely heavily on integrations with PeeringDB to reduce
-        overhead and improve operations.
+      description: |
+        Wanna see ***all available exchanges*** we can peer at according to PeeringDB?
+        Run our Python 3 utility to find out for yourself! 
+
+            pip install routeviews
+            routeviews-build-peer --asn <YOUR_ASN> --show-options
+
+        > ⚠ Please ensure your PeeringDB entries are up to date before requesting
+        > peering. We rely heavily on integrations with PeeringDB to reduce
+        > overhead and improve operations.
       options:
         - label: My PeeringDB Entries are current
           required: true
