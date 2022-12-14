@@ -1,6 +1,6 @@
 name: Host a New Collector (draft)
 description: Offer resources so Route Views can maintain a collector at your Internet Exchange (IX).
-title: "New Collector"
+title: New Collector
 labels: 
   - triage
   - collector
