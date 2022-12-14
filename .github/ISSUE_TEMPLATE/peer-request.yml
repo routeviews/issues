@@ -24,15 +24,15 @@ body:
     attributes:
       label: PeeringDB Integration
       description: |
-        Wanna see ***all available exchanges*** we can peer with you according to PeeringDB?
-        Try out the [`routeviews` Python Package](https://pypi.org/project/routeviews/)!
+        Wanna see **ALL EXCHANGES** where we can peer? Try out the 
+        [`routeviews` Python Package](https://pypi.org/project/routeviews/)!
 
             pip install routeviews
             routeviews-build-peer --asn <YOUR_ASN> --show-options
       options:
         - label: My PeeringDB Entries are current
           required: true
-        - label: Peer at ***all available exchanges*** (*and skip the Peer Address(es) field below*)
+        - label: Peer at **ALL EXCHANGES** (*and skip the Peer Address(es) field below*)
   - type: textarea
     id: ipaddrs
     attributes:
