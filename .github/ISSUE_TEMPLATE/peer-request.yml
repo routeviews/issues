@@ -49,11 +49,3 @@ body:
         long TTL for this session! (*We configure `TTL=255`*)
       options:
         - label: Multihop Peering Request
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct (TODO)
-      description: By submitting this issue, you agree to follow our [Code of Conduct (todo)](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
