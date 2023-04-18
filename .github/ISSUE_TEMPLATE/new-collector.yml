@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for thinking about hosting a Route Views collector!
+        Thanks for offering to host a Route Views collector!
         
         ℹ Please see the [New Collector Guide](https://routeviews.github.io/issues/new-collector/).
   - type: input
@@ -23,29 +23,21 @@ body:
     id: internet_exchanges
     attributes:
       label: IX(s)
-      description: The internet exchange(s) where the collector will connect
+      description: The Internet exchange(s) where the collector will connect
     validations:
       required: true
   - type: input
     id: location
     attributes:
       label: Location
-      description: Coordinates where the collector is hosted (address accepted, but (lat., long.) preferred).
+      description: Coordinates where the collector is hosted (address accepted, but latitude and longitude preferred).
     validations:
       required: true
   - type: checkboxes
     id: new_collector_requirements
     attributes:
       label: System Requirements
-      description: Review the System Requirements outlined in the [New Collector Guide](https://routeviews.github.io/issues/new-collector/).
+      description: Review the system requirements outlined in the [New Collector Guide](https://routeviews.github.io/issues/new-collector/).
       options:
-        - label: I have reviewed the System Requirements, and am confident I can host a collector that meets the minimums.
-          required: true
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct (TODO)
-      description: By submitting this issue, you agree to follow our [Code of Conduct (todo)](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I have reviewed the system requirements, and am confident I can host a collector that meets the minimums.
           required: true

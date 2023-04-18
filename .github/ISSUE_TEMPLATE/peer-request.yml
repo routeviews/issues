@@ -24,7 +24,7 @@ body:
     attributes:
       label: PeeringDB Integration
       description: |
-        Wanna see **ALL EXCHANGES** where we can peer? Try out the [`routeviews` Python Package](https://pypi.org/project/routeviews/)!
+        Wanna see **ALL EXCHANGES** where we can peer? Try out the [`routeviews` python package](https://pypi.org/project/routeviews/)!
 
             pip install routeviews
             routeviews-build-peer --asn <YOUR_ASN> --show-options
@@ -37,16 +37,15 @@ body:
     attributes:
       label: Peer Address(es)
       description: >
-        If not peering at **ALL EXCHANGES**, provide IP Addresses of the
-        devices you'd like to peer with Route Views.
-        List multiple addresses seperated by whitespace characters (newlines, spaces, tabs, etc.)
+        If not peering at **ALL EXCHANGES**, please provide the IP addresses you'd like us to peer with.
+        List multiple addresses separated by whitespace characters (newlines, spaces, tabs, etc.)
   - type: checkboxes
     id: multihop
     attributes:
       label: Multihop
       description: >
-        Is this a multihop peering session? If yes, make sure to set a nice 
-        long TTL for this session! (*We configure `TTL=255`*)
+        Is this a multihop peering session? If yes, make sure to set a 
+        high TTL for this session! (*We configure `TTL=255`*)
       options:
         - label: Multihop Peering Request
   - type: checkboxes
@@ -55,5 +54,5 @@ body:
       label: Code of Conduct (TODO)
       description: By submitting this issue, you agree to follow our [Code of Conduct (todo)](https://example.com)
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I agree to follow this project's code of conduct
           required: true

@@ -1,5 +1,5 @@
 name: Report an Outage
-description: Report that some Route Views Service is unexpectedly offline. 
+description: Report that some Route Views service is unexpectedly offline. 
 labels: 
   - triage
   - outage
@@ -7,9 +7,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to submit this outage report!
+        Thanks for taking the time to submit an outage report!
 
-        > ℹ Before proceeding, it is wise to review [existing outages](https://github.com/routeviews/issues/issues?q=is%3Aopen+label%3Aoutage).
+        > ℹ Before notifying us, please review [existing outages](https://github.com/routeviews/issues/issues?q=is%3Aopen+label%3Aoutage).
   - type: input
     id: host
     attributes:
@@ -22,18 +22,10 @@ body:
     id: details
     attributes:
       label: Details
-      placeholder: Please provide info about the outage that you think will help us.
+      placeholder: Please provide information about the outage that you think will help us.
   - type: textarea
     id: logs
     attributes:
       label: Console output or logs
       description: You may also paste relevant logs or console output here that may help. (This will be automatically formatted into code, so no need for backticks)
       render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct (TODO)
-      description: By submitting this issue, you agree to follow our [Code of Conduct (todo)](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true

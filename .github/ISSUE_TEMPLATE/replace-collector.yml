@@ -1,6 +1,6 @@
 name: Replace/Upgrade a Collector
 description: Request to replace/upgrade an existing Route Views collector.
-title: Replace/Upgrade Collector
+title: Replace / Upgrade Collector
 labels: 
   - triage
   - collector
@@ -9,7 +9,7 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: ℹ This form intended for [@routeviews/maintainers](https://github.com/orgs/routeviews/teams/maintainers), to help track collector upgrades/replacements.
+      value: ℹ This form is intended for [@routeviews/maintainers](https://github.com/orgs/routeviews/teams/maintainers), to help track collector upgrades/replacements.
   - type: input
     id: collector
     attributes:
@@ -25,17 +25,9 @@ body:
       description: >
         Why does this collector need to be replaced/upgraded? 
         Some examples: 
-          * "Upgrade from deprecated Operating System" 
-          * "Major Version upgrade for Operating System" 
+          * "Upgrade from deprecated operating system" 
+          * "Major version upgrade for operating system" 
           * "Switching from physical host to virtual machine" 
-          * "Hosting Company requested this replacement/upgrade" 
+          * "Hosting company requested this replacement/upgrade" 
     validations:
       required: true
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct (TODO)
-      description: By submitting this issue, you agree to follow our [Code of Conduct (todo)](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
