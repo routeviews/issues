@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out a bug report!
 
         > ℹ Before reporting, please review [existing bug reports](https://github.com/routeviews/issues/issues?q=is%3Aissue+is%3Aopen+label%3Abug).
         > You might [vote](https://routeviews.github.io/issues/voting/) or comment on an existing issue rather than opening a new bug.
