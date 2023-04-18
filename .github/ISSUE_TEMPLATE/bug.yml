@@ -9,8 +9,8 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
 
-        > ℹ Before proceeding, it is wise to review [existing bug reports](https://github.com/routeviews/issues/issues?q=is%3Aissue+is%3Aopen+label%3Abug).
-        > You might [vote](https://routeviews.github.io/issues/voting/) or comment on an existing issue rather than taking the time to fill this form.
+        > ℹ Before reporting, please review [existing bug reports](https://github.com/routeviews/issues/issues?q=is%3Aissue+is%3Aopen+label%3Abug).
+        > You might [vote](https://routeviews.github.io/issues/voting/) or comment on an existing issue rather than opening a new bug.
   - type: textarea
     id: observed-behavior
     attributes:
@@ -25,18 +25,10 @@ body:
     attributes:
       label: Expected Behavior
       description: If the bug is fixed, what is the expected behavior?
-      placeholder: Let us know what to strive for, and we'll do our best to make it reality!
+      placeholder: 
   - type: textarea
     id: logs
     attributes:
       label: Relevant console output or logs
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct (TODO)
-      description: By submitting this issue, you agree to follow our [Code of Conduct (todo)](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
