@@ -7,10 +7,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this feature request!
+        Thank you for taking the time to submit a feature request!
 
-        > ℹ Before proceeding, it is wise to review [existing feature requests](https://github.com/routeviews/issues/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement).
-        > You might [vote](https://routeviews.github.io/issues/voting/) or comment on an existing issue rather than taking the time to fill this form.
+        > ℹ Before creating a request, please review [existing feature requests](https://github.com/routeviews/issues/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement).
+        > You might [vote](https://routeviews.github.io/issues/voting/) or comment on an existing issue rather than creating a new request.
 
   - type: textarea
     id: details
@@ -21,12 +21,4 @@ body:
         Some motivating questions:
 
         * What is the benefit of this enhancement? 
-        * What are the costs of not making this enhancement?
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct (TODO)
-      description: By submitting this issue, you agree to follow our [Code of Conduct (todo)](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+        * What challenges will you face if this feature is not implemented?
