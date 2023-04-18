@@ -16,7 +16,7 @@ body:
     id: asn
     attributes:
       label: ASN 
-      description: Your Autonomous System Number (ASN)
+      description: Autonomous System Number (ASN)
     validations:
       required: true
   - type: checkboxes
@@ -24,10 +24,7 @@ body:
     attributes:
       label: PeeringDB Integration
       description: |
-        Wanna see **ALL EXCHANGES** where we can peer? Try out the [`routeviews` python package](https://pypi.org/project/routeviews/)!
-
-            pip install routeviews
-            routeviews-build-peer --asn <YOUR_ASN> --show-options
+        Would you like to see **ALL EXCHANGES** where we can peer? [Visit peeringdb](https://www.peeringdb.com/net/3367)!
       options:
         - label: My PeeringDB Entries are current
           required: true
@@ -37,7 +34,8 @@ body:
     attributes:
       label: Peer Address(es)
       description: >
-        If not peering at **ALL EXCHANGES**, please provide the IP addresses you'd like us to peer with.
+        If you are not peering at **ALL EXCHANGES**, provide the IP address of the
+        interface you'd like to peer with Route Views.
         List multiple addresses separated by whitespace characters (newlines, spaces, tabs, etc.)
   - type: checkboxes
     id: multihop
